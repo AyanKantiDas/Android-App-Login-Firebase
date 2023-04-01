@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:hint="  Full Name"
+        android:background="@drawable/editext_background"/>
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:hint="  Mobile Number"
+        android:maxLength="10"
+        android:autoLink="phone"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/editext_background"/>
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:hint="  Email Address"
+        android:autoLink="email"
+        android:background="@drawable/editext_background"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:hint="  Password"
+        android:background="@drawable/editext_background"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="3dp"
+        android:textSize="20dp"
+        android:text="Sign Up" />
+
+    <TextView
+        android:id="@+id/goToLoginActivity"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Login"/>
+
+
+</LinearLayout>
